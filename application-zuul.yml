@@ -8,7 +8,6 @@ spring:
       name: microservice-zuul-gateway
 server:
   port: 9527
-spring:
 eureka:
   client:
     service-url:
@@ -30,7 +29,6 @@ spring:
       name: microservice-zuul-gateway-test
 server:
   port: 9528
-spring:
 eureka:
   client:
     service-url:
