@@ -17,8 +17,10 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    aigouEmployee.serviceId: employee-provider
-    aigouEmployee.path: /employee/**  # 匹配 /xxx开头的请求映射到user-provider服务上
+    hotdogEmployee.serviceId: employee-provider
+    hotdogEmployee.path: /employee/**
+    hotdogProduct.serviceId: product-service-8002
+    hotdogProduct.path: /product/**                                # 匹配 /xxx开头的请求映射到user-provider服务上
   ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的
   prefix: /hotdog   # 访问前缀
 
@@ -38,7 +40,9 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    aigouEmployee.serviceId: employee-provider
-    aigouEmployee.path: /employee/**  # 匹配 /xxx开头的请求映射到user-provider服务上
+    hotdogEmployee.serviceId: employee-provider
+    hotdogEmployee.path: /employee/** 
+    hotdogProduct.serviceId: product-service-8002
+    hotdogProduct.path: /product/**       # 匹配 /xxx开头的请求映射到user-provider服务上
   ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的
   prefix: /hotdog   # 访问前缀
