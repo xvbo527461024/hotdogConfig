@@ -5,7 +5,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: product-provider
+    name: product-service-8002
   datasource:  #数据库的配置
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/hotdog?useUnicode=true&characterEncoding=UTF-8  #防止中文乱码
