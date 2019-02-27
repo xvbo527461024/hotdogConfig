@@ -21,7 +21,7 @@ eureka:
     prefer-ip-address: true #显示客户端真实ip
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml #扫mapper映射
-  type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query  #别名的配置
+  type-aliases-package: cn.hot.hotdog.domain,cn.hot.hotdog.query  #别名的配置
 
 ---
 spring:
