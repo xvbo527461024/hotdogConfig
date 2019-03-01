@@ -9,6 +9,7 @@ spring:
     name: common-provider
 server:
   port: 8003
+  max-http-header-size: 4048576
 eureka:
   client:
     service-url:
