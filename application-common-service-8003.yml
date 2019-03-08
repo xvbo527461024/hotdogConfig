@@ -7,6 +7,10 @@ spring:
   profiles: dev
   application:
     name: common-provider
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300 
 server:
   port: 8003
   max-http-header-size: 4048576
